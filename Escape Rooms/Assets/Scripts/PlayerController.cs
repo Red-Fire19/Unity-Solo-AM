@@ -22,8 +22,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         playercam = Camera.main;
 
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+       // Cursor.visible = false;
+       // Cursor.lockState = CursorLockMode.Locked;
     }
 
 
